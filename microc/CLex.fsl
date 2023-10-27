@@ -22,6 +22,7 @@ let keyword s =
     | "if"      -> IF
     | "int"     -> INT
     | "null"    -> NULL
+    | "for"     -> FOR         // <NEW>
     | "print"   -> PRINT
     | "println" -> PRINTLN
     | "return"  -> RETURN

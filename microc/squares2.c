@@ -11,18 +11,14 @@ void main(int n) {
 
 void squares(int n, int arr[]) {
     int i;
-    i = 0;
-    while(i < n) {
+    for(i = 0; i < n; i = i + 1) {
         arr[i] = i * i;
-        i = i + 1;
     }
 }
 
 void arrsum(int n, int arr[], int *sump) {
     int i;
-    i = 0;
-    while(i < n) {
+    for(i = 0; i < n; i = i + 1) {
         *sump = *sump + arr[i]; 
-        i = i + 1;
     }
 }
